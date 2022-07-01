@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About JSON</title>
+    <script src = 'day4.js'></script>
+</head>
+<body>
+    <h2 style = "color:red;">Checking the two JSON have properties in without order:</h2>
+    <p>For JSON files properties comparing we have lot of way's let see one by one.<br>
+        here I take one simple for JSON comparing The Example is : <br>
+
+        &ensp;&ensp;&ensp; var obj1 = {"name":"giri","age":27}<br>
+        &ensp;&ensp;&ensp; var obj2 = {"age":27,"name":"giri"}<br>
+        <br>
+        So here I take above json for the explanation. <br>
+        See in this json have same properties but in diffrent order so our need is want to compare this json.<br>
+<br>
+        1. Using key-word's <br>
+        2. Loopings</p>
+    <h2 style = "color:dodgerblue;">1.Using Key-word:</h2>
+    <p>Using key-word is a Simplest process just we insatall the lodash module file. from this module file we use some key-word given bellow<br>
+     like isEqual and deepEqual we able to compare it<br>
+    <br>
+    But using this approch we get only the boolean format outputs if the parameter is present it gives TRUE <br>
+    if it not have the same parameter it gives FALSE</p>
+    <br>
+    <h2 style = "color: dodgerblue;">2.Loopings:</h2>
+    <p> First we need to take the json keys from each file then using FOR loop we compare it<br>
+    I will add the input JS code and output image here<br>
+    input image:</p>
+
+    <img src="/images/for_json_js_code.png" height="300" width="300" alt="js code image"
+    style="margin-left:200px ;">
+
+    <p>output image:</p>
+
+    <img src="/images/for_json.png" height="300" width="300" alt="js code image"
+    style="margin-left:200px ;">
+    <p>In output image show the how loopings give the output 
+    the for loop will compare the each and every properties </p>
+
+<br><br>
+<center><h2 style="color: deeppink;">Thankyou!!!</h2></center>
+</body>
+</html>
